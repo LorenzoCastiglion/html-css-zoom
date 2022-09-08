@@ -46,6 +46,7 @@
   .speaker{
     font-size: 10px;
     margin-left: 3px;
+    margin: 0 auto;
     
     
   }
@@ -114,7 +115,7 @@ body{
   /* footer start */
 
   .barra{
-    text-align: center;
+    
     color: white;
     width: 100%;
     background-color: #222222;
@@ -133,6 +134,7 @@ body{
     width: 8%;
     background-color: #4A4A4A ;
     height: 80px;
+    
   }
 
   .fine{
@@ -140,7 +142,27 @@ body{
     line-height: 80px;
   }
 
-  .left{
-    padding-right: 100px;
+  div.left *{
+    margin-top: 3%;
+    margin-left: 20px;
+    
   }
 
+  svg{
+    width: 30px;
+  }
+
+  footer span{
+    font-size: 14px;
+    
+  }
+
+  footer .icon{
+    font-size: 30px;
+    text-align: center;
+    
+  }
+
+  footer br{
+    font-size: 10px;
+  }
