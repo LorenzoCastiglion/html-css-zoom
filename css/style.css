@@ -75,34 +75,34 @@
 
   .container{
     background-color: black;
-    width: 90vw;
+    width: 90%;
     height: 100vh;
     margin: 2% auto;
+   
   }
-
+ 
   .wrap{
-    margin: 0% auto;
-    
-    
-  }
-  .zoom-flex{
+    width: 100%;
     display: flex;
+    flex-flow: row wrap;
+    
     
   }
 
-  .user{
+  .card{
+    width: (100% / 7);
     position: relative;
-    width: (100vw / 7);
-    
   }
 
-  .pinco{
-    width: 8%;
-    height: 5%;
-    background-color:rgba(128, 128, 128, 0.43);
-    position: absolute;
-    bottom: 260px;
-    left: 95;
+  .name{
+    background-color: rgba(128, 128, 128, 0.685);
     color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
   }
-  
+
+  img{
+    width: 100%;
+  }
+
